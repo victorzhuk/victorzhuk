@@ -9,18 +9,18 @@
   ┌──────────────────────────────────────────┐     :ide       '(zed vim))
   │                                          │
   │    ✻ Welcome to Sacred Code!             │   (defvar *languages*
-  │                                          │     '(:programming (go rust typescript)
+  │                                          │     '(:programming (go rust typescript python lisp)
   │    > build the bright future             │       :schema      (sql protobuf openapi)
   │                                          │       :real        (russian english)))
   │    ● I'll read the message bus first…    │
   │                                          │   (defvar *stack*
   │    ✻ Vibing… (esc to interrupt)          │     '(:storage    (postgresql mongodb clickhouse redis)
   │                                          │       :messaging  (kafka nats rabbitmq)
-  │    ╭──────────────────────────────╮      │       :infra      (kubernetes docker helm)
-  │    │ >                            │      │       :telemetry  (otel prometheus grafana jaeger)))
+  │    ╭──────────────────────────────╮      │       :infra      (kubernetes docker helm dokploy)
+  │    │ >                            │      │       :telemetry  (otel prometheus grafana jaeger langfuse)))
   │    ╰──────────────────────────────╯      │
   │      ? for meaning of life               │   (defvar *ai*
-  │                                          │     '(:agents    (claude-code omp mcp)
+  │                                          │     '(:agents    (claude-code omp opencode yagel)
   └──────────────────────────────────────────┘       :workflow  (spec-driven multi-agent-pipelines)))
                 ,@@@@@@@@@@@@,
 ═══════════════@@@@@@@@@@@@@@@@═══════════════   (defvar *hobbies*
@@ -38,6 +38,7 @@
                                                    '(:blog     "victorzh.uk"
                                                      :github   "github.com/victorzhuk"
                                                      :linkedin "linkedin.com/in/vzhuk"
+                                                     :telegram "t.me/zhukva"
                                                      :email    "zhuk@pm.me"))
 
                                                  ;; (works-in-production-p *stack*) => T
