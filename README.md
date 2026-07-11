@@ -1,8 +1,8 @@
 ```text
-                                                 ;;;; victor@zhuk ─ overflowed-stack engineer
+                                                 ;;;; victor/zhuk ─ overflowed-stack engineer
 
                                                  (defsystem :victor/zhuk
-                                                   :os        "Arch Linux (CachyOS) + Wayland"
+                                                   :os        "Arch Linux (CachyOS) + Wayland + niri + dms"
                                                    :uptime    "16+ years in production"
                                                    :kernel    "Team Lead / Go Backend"
                                                    :shell     '(zsh kitty)
