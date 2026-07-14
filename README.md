@@ -1,5 +1,5 @@
 ```text
-                                                 ;;;; victor/zhuk ─ overflowed-stack engineer
+                                                 ;;;; victor/zhuk ─ overflowed-stack engineer and lead
 
                                                  (defsystem :victor/zhuk
                                                    :os        "Arch Linux (CachyOS) + Wayland + niri + dms"
