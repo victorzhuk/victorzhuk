@@ -9,7 +9,7 @@
   ┌──────────────────────────────────────────┐     :ide       '(zed vim))
   │                                          │
   │    ✻ Welcome to Sacred Code!             │   (defvar *languages*
-  │                                          │     '(:programming (go rust typescript python lisp)
+  │                                          │     '(:programming (go rust typescript php python cpp lisp)
   │    > build the bright future             │       :schema      (sql protobuf openapi)
   │                                          │       :real        (russian english)))
   │    ● I'll read the message bus first…    │
