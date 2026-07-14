@@ -8,13 +8,13 @@
                                                    :shell     '(zsh kitty)
   ┌──────────────────────────────────────────┐     :ide       '(zed vim))
   │                                          │
-  │    ✻ Welcome to Sacred Code!             │   (defvar *languages*
+  │    * Welcome to Sacred Code!             │   (defvar *languages*
   │                                          │     '(:programming (go rust typescript php python cpp lisp)
   │    > build the bright future             │       :schema      (sql protobuf openapi)
   │                                          │       :real        (russian english)))
   │    ● I'll read the message bus first…    │
   │                                          │   (defvar *stack*
-  │    ✻ Vibing… (esc to interrupt)          │     '(:storage    (postgresql mongodb clickhouse redis)
+  │    * Vibing… (esc to interrupt)          │     '(:storage    (postgresql mongodb clickhouse redis)
   │                                          │       :messaging  (kafka nats rabbitmq)
   │    ╭──────────────────────────────╮      │       :infra      (kubernetes docker helm dokploy)
   │    │ >                            │      │       :telemetry  (otel prometheus grafana jaeger langfuse)))
